@@ -42,9 +42,8 @@ public class Test_Alert {
 		Alert a = driver.switchTo().alert();
 		System.out.println(a.getText());
 		a.dismiss();
-		//Thread.sleep(2000);
-		//System.out.println(driver.findElement(By.id("confirmLog")).getText());
-		//driver.quit();
+		Thread.sleep(2000);
+		System.out.println(driver.findElement(By.id("confirmLog")).getText());
 		
 	}
 
