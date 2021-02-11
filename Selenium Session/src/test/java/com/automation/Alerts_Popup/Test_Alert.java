@@ -44,7 +44,7 @@ public class Test_Alert {
 		a.dismiss();
 		Thread.sleep(2000);
 		System.out.println(driver.findElement(By.id("confirmLog")).getText());
-		driver.quit();
+		//driver.quit();
 		
 	}
 
